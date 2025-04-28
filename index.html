@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="overflow-x-hidden">
+    <nav class="w-screen h-fit shadow-md">
+        <div class="w-full flex justify-center items-center gap-16 py-8 font-bold">
+            <a href="/">Home</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <section id="home" class="w-screen h-screen flex justify-center items-center">
+        <div class="container max-w-screen-xl flex justify-between">
+            <div class="flex flex-col gap-4">
+                <h2 class="text-xl font-semibold text-slate-500">Web Developer</h2>
+                <h1 class="text-2xl font-bold text-black">Ahmad Abyansyah</h1>
+                <p class="w-[400px] text-justify">Saya merupakan seorang mahasiswa prodi Software Engineering Telkom University. Saya memiliki minat pada Web Development.</p>
+                <div class="flex flex-row items-center w-full gap-6">
+                    <a href=""><img src="/Asset/Instagram.png" alt="ig" width="48"></a>
+                    <a href=""><img src="/Asset/LinkedIn.png" alt="li" width="48"></a>
+                    <a href=""><img src="/Asset/git.png" alt="git" width="48"></a>
+                </div>
+            </div>
+            <div class="shadow-md rounded-sm overflow-hidden"><img class="object-cover" src="/Asset/amad.jpg" alt="ahmad.jpg" width="248px"></div>
+        </div>
+    </section>
+    <section id="project" class="w-screen h-fit flex flex-col justify-center items-center py-16">
+        <h1 class="text-2xl text-black font-bold">My Project</h1>
+        <div class="container max-w-screen-xl mt-6">
+            <div class="flex flex-row w-full gap-8 justify-center">
+                <div class="group w-[400px] rounded-lg bg-white shadow-sm overflow-hidden">
+                    <img src="/Asset/zanuba.png" alt="" class="h-[248px] object-cover group-hover:rotate-3 group-hover:scale-110 transition transform duration-300">
+                    <div class="p-4 flex flex-col gap-4">
+                        <h2 class="font-semibold text-base">Website A</h2>
+                        <p class="text-sm">Website A merupakan website UMKM yang menjual berbagai macam snack. Website ini memungkinkan user membeli snack secara online </p>
+                        <button class="bg-blue-500 text-white px-3 py-1 rounded-sm w-fit hover:bg-blue-700 hover:text-gray-100 transition duration-300  ">Live demo</button>
+                    </div>
+                </div>
+                <div class="group w-[400px] rounded-lg bg-white shadow-sm overflow-hidden">
+                    <img src="/Asset/touravel.png" alt="" class="h-[248px] object-cover group-hover:rotate-3 group-hover:scale-110 transition transform duration-300">
+                    <div class="p-4 flex flex-col gap-4">
+                        <h2 class="font-semibold text-base">Website B</h2>
+                        <p class="text-sm">Website B merupakan website yang berisi informasi rekomendasi tempat wisata. Website ini memungkinkan user memesan tiket secara online </p>
+                        <button class="bg-blue-500 text-white px-3 py-1 rounded-sm w-fit hover:bg-blue-700 hover:text-gray-100 transition duration-300">Live demo</button>
+                    </div>
+                </div>
+                <div class="group w-[400px] rounded-lg bg-white shadow-sm overflow-hidden">
+                    <img src="/Asset/fgs.png" alt="" class="h-[248px] object-cover group-hover:rotate-3 group-hover:scale-110 transition transform duration-300">
+                    <div class="p-4 flex flex-col gap-4">
+                        <h2 class="font-semibold text-base">Website C</h2>
+                        <p class="text-sm">Website C merupakan website yang menyediakan informasi mengenai fetival gunung slamet secara lengkap.</p>
+                        <button class="bg-blue-500 text-white px-3 py-1 rounded-sm w-fit hover:bg-blue-700 hover:text-gray-100 transition duration-300">Live demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="w-screen h-fit flex flex-col justify-center items-center py-16">
+        <h1 class="text-2xl text-black font-bold py-8">Contact Me</h1>
+        <form action="" class="flex flex-col w-1/3 gap-5 p-6 shadow-lg rounded-md">
+            <input type="text" class="outline-2 outline-gray-400 px-4 py-2 w-full rounded-sm" placeholder="Name">
+            <input type="email" class="outline-2 outline-gray-400 px-4 py-2 w-full rounded-sm" placeholder="Email">
+            <textarea name="message" cols="30" rows="4" id="" class="outline-2 outline-gray-400 px-4 py-2 w-full rounded-sm" placeholder="Message"></textarea>
+            <button class="bg-blue-500 text-white px-3 py-2 rounded-sm hover:bg-blue-700 hover:text-gray-100 transition duration-300">Submit</button>
+        </form>
+    </section>
+    <footer class="w-screen h-fit flex flex-col justify-center items-center py-4 bg-black">
+        <div class="text-white">Made with ❤️ by me</div>
+    </footer>
+</body>
+
+</html>
